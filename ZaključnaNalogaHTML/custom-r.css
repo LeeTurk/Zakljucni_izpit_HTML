@@ -1,0 +1,83 @@
+html, body {
+    background: url(img/Brickleberry.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu {
+    overflow: hidden;
+    position: fixed;
+    border: 0px;
+    border-radius: 5px;
+    background-color:rgba(124, 151, 70,0.7); 
+}
+
+.menu li {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    display: inline;
+    padding: 12px;
+    margin: 10px;
+}
+
+.menu li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.pazniki{
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    top:50%;
+    left:10%;
+    right:10%;
+    background: rgba(124, 151, 70,0.4);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    border: 2px;
+    border-color: rgb(169,223,251);
+    border-radius: 10px;
+    border-style:solid;
+}
+.pazniki img{
+}
+.pazniki a {text-decoration: none;
+color:white;
+display: grid;}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(124, 151, 70,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(124, 151, 70,0.4); 
+}
+.border {
+    border:2px solid rgb(169,223,251);
+    display: inline-block;
+    border-radius: 4%;
+    background: rgba(124, 151, 70,1);
+    margin: 2px;
+}
+.zaspan {
+
+}
